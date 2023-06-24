@@ -109,5 +109,6 @@ class regform extends Frame {
     public static void main(String[] args) {
 
         regform r = new regform();
+        r.setVisible(true);
     }
 }

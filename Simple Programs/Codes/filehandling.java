@@ -19,6 +19,7 @@ public class filehandling {
                 System.out.println(line);
             }
             buffer.close();
+            scan.close();
         }
         catch(IOException e){
             System.out.println(e.getMessage());

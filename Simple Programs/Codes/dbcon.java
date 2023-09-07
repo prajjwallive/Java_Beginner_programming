@@ -28,3 +28,28 @@ public class dbcon{
 
     }
 }
+
+// import java.sql.*;
+
+// public class dbcon {
+//     public static void main(String[] args) {
+//         Connection con = null;
+//         try {
+//             Class.forName("com.mysql.cj.jdbc.Driver");
+//             String url = "jdbc:mysql://Localhost:3306/";
+//             String uname = "";
+//             String pswd = "";
+//             con = DriverManager.getConnection(url, uname, pswd);
+//             System.out.println("Connection Established!\n");
+//         } catch (SQLException | ClassNotFoundException e) {
+//             e.getStackTrace();
+//             } finally {
+//             try(con != null){
+//             con.close();
+//             }
+//             catch(SQLException e){
+//             e.getStackTrace();
+//             }
+//         }
+//     }
+// }
